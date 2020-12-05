@@ -21,8 +21,8 @@ void test_prime(void);
 void test_odd(void);
 void test_even(void);
 void test_reverse(void);
-void test_si(void);
-void test_ci(void);
+//void test_si(void);
+//void test_ci(void);
 void test_profit(void);
 void test_loss(void);
 
@@ -54,8 +54,8 @@ int main() {
   CU_add_test(suite, "odd", test_odd);
   CU_add_test(suite, "even", test_even);
   CU_add_test(suite, "reverse", test_reverse);
-  CU_add_test(suite, "si", test_cube);
-  CU_add_test(suite, "ci", test_cube);
+  //CU_add_test(suite, "si", test_cube);
+  //CU_add_test(suite, "ci", test_cube);
   CU_add_test(suite, "profit", test_cube);
   CU_add_test(suite, "loss", test_cube);
 
@@ -169,18 +169,18 @@ void reverse(void) {
   /* Dummy fail*/
   CU_ASSERT(0 == reverse(21));
 }
-void si(void) {
+/*void si(void) {
   CU_ASSERT(6500 == si(5000,6,5));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == si(5000,6,5));
+  /*CU_ASSERT(0 == si(5000,6,5));
 }
 void ci(void) {
   CU_ASSERT(6,744.25 == ci(5000,6,5));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == ci(5000,6,5));
-}
+  //CU_ASSERT(0 == ci(5000,6,5));
+//} 
 void profit(void) {
   CU_ASSERT(1500 == profit(6500,5000));
 
