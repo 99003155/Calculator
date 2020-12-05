@@ -1,5 +1,5 @@
-#ifndef CALCULATOR_H_INCLUDED
-#define CALCULATOR_H_INCLUDED
+#ifndef CALCULATOR_H__
+#define CALCULATOR_H__
 
 #include <stdio.h>
 #include <stdlib.h>
