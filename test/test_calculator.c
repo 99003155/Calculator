@@ -188,7 +188,7 @@ void profit(void) {
   CU_ASSERT(0 == profit(6500,5000));
 }
 void loss(void) {
-  CU_ASSERT(12 == loss(5000,4000));
+  CU_ASSERT(1000 == loss(5000,4000));
 
   /* Dummy fail*/
   CU_ASSERT(0 == loss(5000,4000));
