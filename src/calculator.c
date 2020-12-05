@@ -37,8 +37,8 @@ int cube(int operand1)
 }
 int squareroot(int operand1)
 {
-    int sqrt = number / 2;
-    temp = 0;
+    int sqrt = int number / 2;
+    int temp = 0;
 
     
     while(sqrt != temp){
