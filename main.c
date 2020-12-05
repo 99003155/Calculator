@@ -124,14 +124,14 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case SQUAREROOT:
+        /*case SQUAREROOT:
             printf("\n\t squareroot %d =%d\nEnter to continue",
             calculator_operand1,
             squareroot(calculator_operand1));
 
             __fpurge(stdin);
             getchar();
-            break;
+            break;*/
         case GREATER:
             printf("\n\t Greater %d and %d = %d\nEnter to continue",
             calculator_operand1,
