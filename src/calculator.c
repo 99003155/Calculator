@@ -101,7 +101,7 @@ int reverse(int operand1)
     }
     return rev;
 }
-int si(int operand1, int operand2, int operand3)
+/*int si(int operand1, int operand2, int operand3)
 {
     si = ( operand1* operand2 * operand3) / 100;
     return si;
@@ -112,7 +112,7 @@ int ci(int operand1, int operand2, int operand3)
     ci=operand1*pow((1+operand2/100),operand3);
 
     return ci;
-}
+}*/
 int profit(int operand1, int operand2)
 {
     return operand1 - operand2;
