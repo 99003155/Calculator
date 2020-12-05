@@ -150,7 +150,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case EQUAL:
+        /*case EQUAL:
             printf("\n\t Equal %d and %d= %d\nEnter to continue",
             calculator_operand1,
             calculator_operand2,
@@ -158,7 +158,7 @@ void calculator_menu(void)
 
             __fpurge(stdin);
             getchar();
-            break;
+            break;*/
          case PRIME:
             printf("\n\t Prime %d=%d\nEnter to continue",
             calculator_operand1,
