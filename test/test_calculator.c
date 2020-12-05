@@ -16,7 +16,7 @@ void test_cube(void);
 //void test_squareroot(void);
 void test_greater(void);
 void test_lesser(void);
-void test_equal(void);
+//void test_equal(void);
 void test_prime(void);
 void test_odd(void);
 void test_even(void);
@@ -49,7 +49,7 @@ int main() {
   //CU_add_test(suite, "squareroot", test_squareroot);
   CU_add_test(suite, "greater", test_greater);
   CU_add_test(suite, "lesser", test_lesser);
-  CU_add_test(suite, "equal", test_equal);
+  //CU_add_test(suite, "equal", test_equal);
   CU_add_test(suite, "prime", test_prime);
   CU_add_test(suite, "odd", test_odd);
   CU_add_test(suite, "even", test_even);
