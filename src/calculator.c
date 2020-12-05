@@ -35,7 +35,7 @@ int cube(int operand1)
 {
     return operand1 * operand1 * operand1;
 }
-int squareroot(int operand1)
+/*int squareroot(int operand1)
 {
     int number;
     int srt = number / 2;
@@ -47,7 +47,7 @@ int squareroot(int operand1)
 
         srt = ( number/temp + temp) / 2;
     return srt;
-}
+}*/
 int greater(int operand1, int operand2)
 {
     if(operand1>operand2)
