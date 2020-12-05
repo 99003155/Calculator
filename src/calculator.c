@@ -37,7 +37,16 @@ int cube(int operand1)
 }
 int squareroot(int operand1)
 {
-    return sqrt(operand1);
+    int sqrt = number / 2;
+    temp = 0;
+
+    
+    while(sqrt != temp){
+        
+        temp = sqrt;
+
+        sqrt = ( number/temp + temp) / 2;
+    return sqrt;
 }
 int greater(int operand1, int operand2)
 {
