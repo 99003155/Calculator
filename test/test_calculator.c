@@ -139,12 +139,12 @@ void test_lesser(void) {
   /* Dummy fail*/
   CU_ASSERT(0 == lesser(2,10));
 }
-void equal(void) {
-  CU_ASSERT(1 == equal(2,2));
+//void equal(void) {
+  //CU_ASSERT(1 == equal(2,2));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == equal(2,2));
-}
+  //CU_ASSERT(0 == equal(2,2));
+//}
 void prime(void) {
   CU_ASSERT(1 == prime(2));
 
@@ -167,7 +167,7 @@ void reverse(void) {
   CU_ASSERT(12 == reverse(21));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == reverse(21));
+  CU_ASSERT(44 == reverse(21));
 }
 /*void si(void) {
   CU_ASSERT(6500 == si(5000,6,5));
@@ -185,13 +185,13 @@ void profit(void) {
   CU_ASSERT(1500 == profit(6500,5000));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == profit(6500,5000));
+  CU_ASSERT(33 == profit(6500,5000));
 }
 void loss(void) {
   CU_ASSERT(1000 == loss(5000,4000));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == loss(5000,4000));
+  CU_ASSERT(33 == loss(5000,4000));
 }
 
 
