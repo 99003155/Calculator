@@ -191,7 +191,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case SI:
+        /*case SI:
             printf("\n\t simple interest = %d\nEnter to continue",
 
             si(calculator_operand1, calculator_operand2, calculator_operand3));
@@ -206,7 +206,7 @@ void calculator_menu(void)
 
             __fpurge(stdin);
             getchar();
-            break;
+            break;*/
         case PROFIT:
             printf("\n\t profit = %d\nEnter to continue",
 
