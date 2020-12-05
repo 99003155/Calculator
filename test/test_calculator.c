@@ -13,7 +13,7 @@ void test_divide(void);
 void test_modulus(void);
 void test_square(void);
 void test_cube(void);
-void test_squareroot(void);
+//void test_squareroot(void);
 void test_greater(void);
 void test_lesser(void);
 void test_equal(void);
@@ -46,7 +46,7 @@ int main() {
   CU_add_test(suite, "modulus", test_modulus);
   CU_add_test(suite, "square", test_square);
   CU_add_test(suite, "cube", test_cube);
-  CU_add_test(suite, "squareroot", test_squareroot);
+  //CU_add_test(suite, "squareroot", test_squareroot);
   CU_add_test(suite, "greater", test_greater);
   CU_add_test(suite, "lesser", test_lesser);
   CU_add_test(suite, "equal", test_equal);
@@ -121,12 +121,12 @@ void test_cube(void) {
   /* Dummy fail*/
   CU_ASSERT(56 == cube(2));
 }
-void test_squareroot(void) {
-  CU_ASSERT(2 == squareroot(4));
+//void test_squareroot(void) {
+  //CU_ASSERT(2 == squareroot(4));
 
   /* Dummy fail*/
-  CU_ASSERT(56 == squareroot(4));
-}
+  //CU_ASSERT(56 == squareroot(4));
+//}
 void test_greater(void) {
   CU_ASSERT(1 == greater(10,2));
 
