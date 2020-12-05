@@ -62,13 +62,13 @@ int lesser(int operand1, int operand2)
     else
         return operand2;
 }
-int equal(int operand1, int operand2)
+/*int equal(int operand1, int operand2)
 {
     if(operand1=operand2)
         return operand1;
     else
         return operand2;
-}
+}*/
 int prime(int operand1)
 {
     int i,a=0,flag=0;
