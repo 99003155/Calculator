@@ -13,7 +13,7 @@ int divide(int operand1, int operand2);
 int modulus(int operand1, int operand2);
 int square(int operand1);
 int cube(int operand1);
-int squareroot(int operand1);
+//int squareroot(int operand1);
 int greater(int operand1, int operand2);
 int lesser(int operand1, int operand2);
 int equal(int operand1, int operand2);
